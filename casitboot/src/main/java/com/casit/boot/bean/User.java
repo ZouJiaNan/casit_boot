@@ -1,22 +1,27 @@
 package com.casit.boot.bean;
 
+
+/**
+ * @author Dawn
+ */
+
 public class User {
-    private String userName;
-    private String Password;
+    private String UserName;
+    private String password;
 
     public String getUserName() {
-        return userName;
+        return UserName;
     }
 
     public void setUserName(String userName) {
-        this.userName = userName;
+        UserName = userName;
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        this.password = password;
     }
 }
