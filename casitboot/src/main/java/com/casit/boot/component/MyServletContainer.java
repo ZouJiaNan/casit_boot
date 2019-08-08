@@ -6,6 +6,6 @@ import org.springframework.boot.web.servlet.server.ConfigurableServletWebServerF
 public class MyServletContainer implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> {
     @Override
     public void customize(ConfigurableServletWebServerFactory factory) {
-        factory.setPort(8888);
+//        factory.setPort(8888);
     }
 }
